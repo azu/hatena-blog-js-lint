@@ -1,4 +1,4 @@
-# hatena-blog-js-lint
+# hatena-blog-js-lint [![Build Status](https://travis-ci.org/azu/hatena-blog-js-lint.png)](https://travis-ci.org/azu/hatena-blog-js-lint)
 
 ![img](http://monosnap.com/image/J6r1z9q3pHNnblTJblSWLWG4CMLpB6.png)
 
