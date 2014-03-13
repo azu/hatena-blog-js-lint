@@ -1,0 +1,27 @@
+{
+    "name": "hatena-blog-js-lint",
+    "description": "lint hatena blog js by ESLint.",
+    "version": "0.0.1",
+    "repository": {
+        "url": "git://github.com/azu/hatena-blog-js-lint.git"
+    },
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --rulesdir rules/ --config example/config.json example/js.js",
+        "test": "mocha test/*.js"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "author": "azu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/azu/hatena-blog-js-lint/issues"
+    },
+    "devDependencies": {
+        "eslint-tester": "0.0.5"
+    },
+    "dependencies": {
+        "eslint": "~0.4.2"
+    }
+}
